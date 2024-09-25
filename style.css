@@ -3,6 +3,11 @@
   padding: 0;/*안쪽 여백 : 0*/
   box-sizing: border-box; /*테두리두께 무시*/
 
+  
+  
+}
+html{
+  scroll-behavior: smooth;
 
 }
 a{
@@ -168,4 +173,146 @@ li{
 }
 .fa-facebook{
   color: #3b5998;
+}
+
+
+
+.skills{
+  width: 100%;
+  height: 800px;
+  background-color: #eee;
+
+  padding-top: 100px;
+
+}
+.skills-inner{
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+
+}
+.skills h1{
+  font-size: 50px;
+}
+.skills h2{
+  font-size: 30px;
+  color: #ff6a6a;
+
+}
+.skills .contents{
+  width: 1200px;
+  height: 400px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 50px;
+}
+.skills li{
+  width: 350px;
+  height: 350px;
+
+  background-color: white;
+  font-size: 21px;
+  text-align: center;
+  padding: 10px;
+
+  transition: 0.3s;
+}
+.skills li:hover{
+  background-color: #ff6a6a;
+  color: white;
+
+  transform: scale(1.03);
+
+}
+.skills h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.skills p{
+
+}
+.skills i{
+  font-size: 50px;
+
+}
+
+
+.bg{
+  width: 100%;
+  height: 800px;
+  background: url(bg2.jpg) no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+
+}
+.projects{
+  height: 1200px;
+}
+
+.contact{
+  width: 100%;
+  height: 800px;
+
+  margin-top: 100px;
+}
+.contact-inner{
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+
+}
+.contact h2{
+  font-size: 30px;
+  color: #ff6a6a;
+}
+.contact h1{
+  font-size: 50px;
+}
+.contact .contents{
+  display: flex;
+}
+.contact .left{
+  width: 400px;
+  height: 800px;
+
+}
+.info li{
+  width: 300px;
+  height: 80px;
+  border: 1px solid #ccc;
+  margin-top: 50px;
+  padding: 20px;
+  font-weight: bold;
+}
+.contact .right{
+  width: 800px;
+  height: 800px;
+
+}
+
+.contact h5{
+  font-weight: normal;
+  margin-top: 30px;
+}
+.contact input{
+  width: 700px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+.contact textarea{
+  width: 700px;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+.contact button{
+  width: 700px;
+  height: 30px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+
 }
